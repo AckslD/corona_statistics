@@ -1,0 +1,3 @@
+*.csv
+data/.last_date
+__pycache__/*
