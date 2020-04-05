@@ -32,3 +32,11 @@ or for plotting Sweden, Netherlands, Italy and China do:
 ```sh
 ./main.py plot -c "Sweden,Netherlands,Italy,China"
 ```
+
+## Data
+Data is taken from https://github.com/CSSEGISandData/COVID-19 and in particular this [file](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv)
+
+The local data for plotting etc get updated automatically when executed once a day. You can also force-update by
+```sh
+./main.py update
+```
