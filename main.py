@@ -19,7 +19,7 @@ def check_update(func):
 
 @click.group(context_settings=CONTEXT_SETTINGS)
 def cli():
-    """Command line interface for managing virtual python environments."""
+    """Command line interface for analysing coronavirus cases."""
     pass
 
 
