@@ -3,7 +3,11 @@
 ## Install
 Clone the repo by
 ```sh
-git glone xxx
+git glone git@github.com:AckslD/corona_statistics.git
+```
+and cd into the folder
+```sh
+cd corona_statistics
 ```
 
 You need python and the additional packages can be installed by
