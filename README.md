@@ -22,7 +22,9 @@ To plot all countries in an interactive plot do:
 ```sh
 ./main.py plot
 ```
-In the plot you can click on countries to remove and add them to the current plot.
+In the plot you can click on countries to remove and add them to the current plot:
+![all_cases][img/all_cases.png]
+
 
 To plot for example only Sweden do
 ```sh
@@ -38,12 +40,14 @@ This is WIP. Exploring if number of cases can be predicted with fitting to a sig
 ```sh
 ./main.py plot
 ```
-will show prediction for China.
+will show prediction for China (as below figure).
+![china][img/china_predict.png]
 
 ```sh
 ./main.py plot US
 ```
-will show prediction for US.
+will show prediction for US (as below figure).
+![us][img/us_predict.png]
 
 ## Data
 Data is taken from https://github.com/CSSEGISandData/COVID-19 and in particular this [file](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv)

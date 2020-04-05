@@ -18,7 +18,7 @@ def fit_data(xdata, ydata, country):
         ydata=ydata,
         bounds=(
             [0., 0.01, 5],
-            [1e9, 0.3, 200],
+            [1e9, 0.3, 100],
         ),
     )
     return popt, pcov
