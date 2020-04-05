@@ -4,6 +4,7 @@ import click
 
 from plot import main as plot_cases
 from update import main as update_all
+from predict import main as predict_country
 
 CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
 
@@ -37,6 +38,19 @@ def plot(countries):
     if countries is not None:
         countries = [country.strip() for country in countries.split(',')]
     plot_cases(countries)
+
+
+###########
+# predict #
+###########
+@cli.command()
+@click.option("-c", "--country", type=str, default="China",
+              help="Choose which country to predict (default China). "
+                   "For example -c Sweden."
+              )
+@check_update
+def predict(country):
+    predict_country(country)
 
 
 ##########
