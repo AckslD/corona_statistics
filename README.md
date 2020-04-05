@@ -33,6 +33,18 @@ or for plotting Sweden, Netherlands, Italy and China do:
 ./main.py plot -c "Sweden,Netherlands,Italy,China"
 ```
 
+## Predict
+This is WIP. Exploring if number of cases can be predicted with fitting to a sigmoid function
+```sh
+./main.py plot
+```
+will show prediction for China.
+
+```sh
+./main.py plot US
+```
+will show prediction for US.
+
 ## Data
 Data is taken from https://github.com/CSSEGISandData/COVID-19 and in particular this [file](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv)
 
