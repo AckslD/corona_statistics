@@ -3,7 +3,7 @@
 ## Install
 Clone the repo by
 ```sh
-git glone git@github.com:AckslD/corona_statistics.git
+git glone https://github.com/AckslD/corona_statistics.git
 ```
 and cd into the folder
 ```sh
@@ -16,6 +16,8 @@ pip3 install -r requirements.txt
 ```
 
 ## Plot
+![screencast](img/corona_plot.gif)
+
 To plot all countries in an interactive plot do:
 ```sh
 ./main.py plot
