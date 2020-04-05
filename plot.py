@@ -23,7 +23,7 @@ def main(countries):
         plot_cases(fig, df, country, province=province)
 
     fig.update_layout(title="Total cases")
-    fig.write_html('corona_cases.html', auto_open=True)
+    fig.show()
 
 
 if __name__ == '__main__':

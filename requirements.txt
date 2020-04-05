@@ -2,3 +2,5 @@ pandas
 plotly
 click
 requests
+numpy
+scipy
